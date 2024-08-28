@@ -2,7 +2,7 @@ import React from 'react'
 import TodoCard from './TodoCard'
 
 const TodoList = (props) => {
-    const { todolist } = props
+    const { todolist, handleDeleteTodos } = props
     return (
         <ul className='main'>
             {todolist.map((item, index) => (
